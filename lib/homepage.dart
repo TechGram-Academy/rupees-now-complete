@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
 
   void getData(String currency) async {
     String url =
-        "https://free.currconv.com/api/v7/convert?q=${currency}_INR&compact=ultra&apiKey=4e95f1d8f9c0e78d72d1";
+        "https://free.currconv.com/api/v7/convert?q=${currency}_INR&compact=ultra&apiKey=[your api key goes here]";
     var result = await http.get(url);
     var data = jsonDecode(result.body);
     setState(() {

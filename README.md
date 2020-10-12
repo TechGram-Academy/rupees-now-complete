@@ -8,3 +8,7 @@ This application is a part of a course - <a href="https://www.youtube.com/playli
 <img src="screenshots/screenshot1.png"  width=250, height=512, style="display:inline-block;">
 <img src="screenshots/screenshot2.png"  width=250, height=512, style="display:inline-block;">
 </div>
+
+
+
+<b>Note</b>- please replace the API key with yours in homepage.dart (line no. - 26)
